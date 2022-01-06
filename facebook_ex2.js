@@ -1,14 +1,3 @@
-// Create an object and an array which we will use in our facebook exercise. 
-
-// 1. Create an object that has properties "username" and "password". Fill those values in with strings.
-
-// var facebookUser = {
-//     username: "Lenin",
-//     password: "123456",
-// };
-
-// 2. Create an array which contains the object you have made above and name the array "database".
-
 var database = [{
         username: "Lenin",
         password: "123456"
@@ -43,16 +32,19 @@ var inputUsername = prompt("Please enter your username: ");
 var inputPassword = prompt("Please enter now your password: ");
 
 function SignIn(user, pass) {
-    for (i = 0; i < database.length; i++) {
+    for (var i = 0; i < database.length; i++) {
         if (database[i].username === user) {
-            if (database[i].pass === pass) {
+            if (database[i].password === pass) {
                 console.log("Access granted! this is your feed. ");
                 console.log(newsFeed);
+                break;
             } else {
-                console.log("Wrong password!");
+                alert("Wrong password!");
+                break;
             }
         } else {
             alert("Wrong username and password combination.");
+            break;
         }
     }
 }
