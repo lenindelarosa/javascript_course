@@ -43,7 +43,7 @@ if (andrei_pokemon ? .raichu && will_pokemon ? .pikachu ? .friend ? .charizard) 
 
 // Exercise 4: What do these each output?
 console.log(false ? ? 'hellooo') // false
-console.log(null ? ? 'hellooo') // hello
+console.log(null ? ? 'hellooo') // hello//
 console.log(null || 'hellooo') // hello
 console.log((false || null) ? ? 'hellooo') // hello
 console.log(null ? ? (false || 'hellooo')) //hello

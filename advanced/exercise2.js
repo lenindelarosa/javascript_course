@@ -40,7 +40,7 @@ function moveCommand(direction) {
 
 //#2 return value when moveCommand("forward"); undefined
 
-//#3 return value when moveCommand("back"); you arrived home
+//#3 return value when moveCommand("back"); you arrived home//
 
 //#4 return value when moveCommand("right"); you found a river
 
