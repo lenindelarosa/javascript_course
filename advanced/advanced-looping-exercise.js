@@ -1,7 +1,7 @@
 const basket = ['apples', 'oranges', 'grapes'];
 const detailedBasket = {
     apples: 5,
-    oranges: 10,
+    oranges: 10, //
     grapes: 1000
 }
 
@@ -82,7 +82,7 @@ function checkBasket(basket, lookingFor) {
     for (item in basket) {
         if (lookingFor === item) {
             //return `Item ${lookingFor} is in the basket! It has ${item} amount!`;
-            return item.lookingFor;
+            return item;
         }
     }
     return `Item ${lookingFor} does not exists!`;
