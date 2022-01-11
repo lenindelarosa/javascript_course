@@ -12,7 +12,7 @@ for (let i = 0; i < basket.length; i++) {
 
 //2
 basket.forEach(item => {
-    console.log(item);
+    console.log(item); //
 })
 
 for (item in detailedBasket) {
