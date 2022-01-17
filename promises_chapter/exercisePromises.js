@@ -43,7 +43,7 @@ Promise.all(urls.map(url=>
   .catch(err => console.log('ughhhh fix it!', err));
 
 // #6) Change one of your urls above to make it incorrect and fail the promise
-// does your catch block handle it?
+// does your catch block handle it?//
 
 
 Promise.all(urls.map(url=>
